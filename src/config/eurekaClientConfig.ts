@@ -6,7 +6,7 @@ const eurekaClient = new Eureka({
   instance: {
     app: AppConstants.REVIEW_SERVICE,
     hostName: "localhost",
-    ipAddr: "127.0.0.1",
+    ipAddr: "3.229.47.37",
     status: "UP",
     port: {
       $: 8088,
@@ -19,7 +19,7 @@ const eurekaClient = new Eureka({
     },
   },
   eureka: {
-    host: "localhost",
+    host: "3.339.47.37",
     port: 8761,
     servicePath: "/eureka/apps",
   },
